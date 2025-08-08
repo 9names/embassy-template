@@ -52,20 +52,20 @@ let targets = #{
     rp2350: #{
         arch: "arm",
         rust_target: "thumbv8m.main-none-eabihf",
-        flash_start: "0x10000100",
-        flash_size: "4096K - 0x100",
+        flash_start: "0x10000000",
+        flash_size: "4096K",
         ram_start: "0x20000000",
-        ram_size: "520K",
+        ram_size: "512K",
         probe_chip: "RP235x"
     },
 
     rp2354: #{
         arch: "arm",
         rust_target: "thumbv8m.main-none-eabihf",
-        flash_start: "0x10000100",
-        flash_size: "2048K - 0x100",
+        flash_start: "0x10000000",
+        flash_size: "2048K",
         ram_start: "0x20000000",
-        ram_size: "520K",
+        ram_size: "512K",
         probe_chip: "RP235x"
     },
 
